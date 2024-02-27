@@ -1,14 +1,6 @@
-package Easy;
+package easy.problem1512;
 
-/*
- * https://leetcode.com/problems/number-of-good-pairs/description/
- *
- * Given an array of integers nums, return the number of good pairs.
- * A pair (i, j) is called good if nums[i] == nums[j] and i < j.
- *
- * */
-
-public class Problem_1512_Number_of_Good_Pairs {
+public class Solution1512 {
 
     public static int numIdenticalPairs(int[] nums) {
         if(nums.length == 1) return 0;

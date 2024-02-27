@@ -1,4 +1,4 @@
-package Easy;
+package easy.problem1342;
 
 /*
  * https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
@@ -9,7 +9,7 @@ package Easy;
  *
  * */
 
-public class Problem_1342_Steps_to_Reduce_to_Zero {
+public class Solution1342 {
 
     public static int numberOfSteps(int num) {
         int step = 0;

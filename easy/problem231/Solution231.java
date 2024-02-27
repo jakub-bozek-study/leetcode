@@ -1,14 +1,6 @@
-package Easy;
+package easy.problem231;
 
-/*
- * https://leetcode.com/problems/power-of-two/description/
- *
- * Given an integer n, return true if it is a power of two. Otherwise, return false.
- * An integer n is a power of two, if there exists an integer x such that n == 2x.
- *
- * */
-
-public class Problem_231_Power_of_Two {
+public class Solution231 {
 
     public static boolean isPowerOfTwo(int n) {
         if(n == 0) return false;

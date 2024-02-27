@@ -1,16 +1,6 @@
-package Easy;
+package easy.problem1672;
 
-/*
- * https://leetcode.com/problems/richest-customer-wealth/description/
- *
- * You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i-t customer has in the j-th bank.
- * Return the wealth that the richest customer has.
- * A customer's wealth is the amount of money they have in all their bank accounts.
- * The richest customer is the customer that has the maximum wealth.
- *
- * */
-
-public class Problem_1672_Richest_Customer_Wealth {
+public class Solution1672 {
     public static int maximumWealth(int[][] accounts) {
         int max = -1;
         for(int i = 0; i < accounts.length; i++){

@@ -1,14 +1,6 @@
-package Easy;
+package easy.problem1480;
 
-/*
- * https://leetcode.com/problems/running-sum-of-1d-array/description/
- *
- * Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
- * Return the running sum of nums.
- *
- * */
-
-public class Problem_1480_Sum_of_1d_Array {
+public class Solution1480 {
 
     public static int[] runningSum(int[] nums) {
         int[] result = new int[nums.length];

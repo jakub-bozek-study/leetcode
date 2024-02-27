@@ -1,13 +1,6 @@
-package Easy;
+package easy.problem9check;
 
-/*
- * https://leetcode.com/problems/palindrome-number/description/
- *
- * Given an integer x, return true if x is a palindrome, and false otherwise.
- *
- * */
-
-public class Problem_9_Palindrome_Number {
+public class Solution9 {
     public static boolean isPalindrome(int x) {
         int original = x;
         int rev = 0;
